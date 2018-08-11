@@ -19,6 +19,12 @@
             :has-top-border="true"
             @wxcCellClicked="jump('storage')">
         </wxc-cell>
+        <wxc-cell title="Hello测试"
+            desc="Helloworld测试页面。"
+            :has-arrow="true"
+            :has-top-border="true"
+            @wxcCellClicked="jump('hello')">
+        </wxc-cell>
         <wxc-cell title="发布订阅"
             desc="$event 可以在不同页面之间进行交互。"
             :has-arrow="true"
