@@ -23,7 +23,7 @@
             desc="Helloworld测试页面。"
             :has-arrow="true"
             :has-top-border="true"
-            @wxcCellClicked="jump('hello')">
+            @wxcCellClicked="jump('login')">
         </wxc-cell>
         <wxc-cell title="发布订阅"
             desc="$event 可以在不同页面之间进行交互。"

@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top: 50px;">
-        <text class="title">Hello, world.</text>
-        <wxc-button class="btn-250" text="Hello" @wxcButtonClicked="showEros"></wxc-button>
+        <text class="title">Login page</text>
+        <wxc-button class="btn-250" text="login" @wxcButtonClicked="btnLogin"></wxc-button>
     </div>
 </template>
 
@@ -10,8 +10,8 @@ import { WxcButton } from 'weex-ui';
 export default {
     components: { WxcButton },
     methods: {
-        showEros() {
-            // this.$router.setHomePage('tabBar')
+        btnLogin() {
+            this.$router.setHomePage('tabBar')
         }
     }
 }

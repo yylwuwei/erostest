@@ -30,6 +30,8 @@ module.exports = {
         'js/pages/demo/other/bindingx.vue',
         'js/pages/demo/other/weexui.vue',
         'js/pages/demo/hello/hello.vue',
+        'js/pages/demo/hello/login.vue',
+        'js/pages/demo/hello/index.vue',
         'js/pages/demo/other/bui.vue'
     ],
     'alias': {

@@ -34,7 +34,8 @@ module.exports = {
         'backgroundColor': '#fafafa',
         'borderColor': '#dfe1eb',
         'list': [{
-                'pagePath': '/pages/demo/router/tabbarItem1.js',
+                //'pagePath': '/pages/demo/router/tabbarItem1.js',
+                'pagePath': '/pages/demo/hello/index.js',
                 'text': '首页',
                 'icon': 'bmlocal://assets/TabBar_Item1@2x.png',
                 'selectedIcon': 'bmlocal://assets/TabBar_Item1_Selected@2x.png',
@@ -43,11 +44,11 @@ module.exports = {
             },
             {
                 'pagePath': '/pages/demo/router/tabbarItem2.js',
-                'text': '联系人',
+                'text': '事件',
                 'icon': 'bmlocal://assets/TabBar_Item2@2x.png',
                 'selectedIcon': 'bmlocal://assets/TabBar_Item2_Selected@2x.png',
                 'navShow': 'true',
-                'navTitle': '联系人'
+                'navTitle': '事件'
             },
             {
                 'pagePath': '/pages/demo/router/tabbarItem3.js',
