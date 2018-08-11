@@ -51,6 +51,9 @@ sign.properties
 .classpath
 .project
 
+# dependence files
+nexus/
+
 # Android Studio
 .idea/
 .gradle
